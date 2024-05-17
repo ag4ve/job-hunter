@@ -156,8 +156,8 @@ doc.font('fonts/Carlito-Regular.ttf');
 doc.fontSize(9);
 doc.text(
   "I have been writing blog posts (and supporting code) about Linux firewall deployments, systemd, linux containers. I am studying " +
-  "for the professional Kubernetes certificates, learning rust, and extending the Grype database. I’m an Extra class Amateur Radio " +
-  "operator. I publish a blog on random technologies that interest me."
+  "for the professional Kubernetes certificates, creating a python based secrets management solution, learning rust, and extending " +
+  "the Grype database. I’m an Extra class Amateur Radio operator. I publish a blog on random technologies that interest me."
 ).moveDown(0.25);
 
 const links = {
@@ -221,6 +221,7 @@ const history = [{
     role: [
       "Worked with 3 AWS accounts containing multiple VPCs to their own Cisco " +
         "CSR/DirectConnect and multiple deployments/environments",
+      "Managed certificates in both KMS and ACM",
       "Designed and implemented a deployment strategy for RHEL/CentOS systems " +
         "in AWS (created shell scripts, cloudformation templates, updated " +
         "packer scripts, chef cookbooks)",
@@ -231,8 +232,10 @@ const history = [{
       "Created a chef resource (LWRP) to create iptables rules from " +
         "protocol/application rule definitions and created a Splunk dashboard " +
         "to show iptables log data across all servers",
+      "Was responsible for managing all host based firewalls for all ICAM Linux servers",
       "Investigated and explained or remediated security audit findings",
-      "Made sure that deployments only used internal resources",
+      "Made sure that deployments only used internal resources (using Sonotype " +
+        "Nexus and proxy pip/gem repos and local configurations)",
       "Created Groovy libraries and workflows to allow push button " +
         "deployments and environment updates in Jenkins",
       "Created/maintained Chef and Jenkins integrations with each other and " +
@@ -246,6 +249,8 @@ const history = [{
     edate: "Aug 2021",
     role: [
       "Analyzed remediation and false positive submissions for accuracy",
+      "Started the process of migrating the desktop application used to upload ",
+        "scans and generate a reports to a node.js webapp that I was writing",
       "Built a powershell script to flag false positives"
     ]
   }, {
@@ -255,10 +260,15 @@ const history = [{
     sdate: "Nov 2022",
     edate: "Oct 2023",
     role: [
-      "Maintained servers and infrastructure on Google Cloud platform",
+      "Maintained Ubuntu Linux servers and infrastructure on Google Cloud platform",
       "Created new Terraform modules and Ansible roles",
+      "Investigated metrics and SLA/SLO/SLI reporting with Prometheus, SigNoz, " +
+        "DataDog, and GCP metrics",
+      "Recommended best practices for structuring ansible deployments including: " +
+        "using AWX Jenkins workers, molecule, separate role based repos, and " +
+        "utilizing a secrets management system",
       "Wrote a Bash script to look at each cert running on a server and " +
-        "report on how many days until it expired"
+        "report on how many days until each cert expired"
     ]
   }
 ];

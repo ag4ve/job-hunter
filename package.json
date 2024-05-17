@@ -1,6 +1,11 @@
 {
   "dependencies": {
+    "@babel/runtime": "^7.24.4",
+    "chatgpt": "^5.2.5",
     "mustache": "^4.2.0",
-    "pdfkit": "^0.15.0"
+    "openai": "^4.33.0",
+    "pdfkit": "^0.15.0",
+    "yarn": "^1.22.22",
+    "yarnpkg": "^0.15.1"
   }
 }
