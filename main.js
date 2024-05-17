@@ -205,7 +205,9 @@ const history = [{
     edate: "Dec 2015",
     role: [
       "Maintained Gentoo and Ubuntu Linux systems at three different geographic locations",
-      "Maintained password cracking hardware, Raritan KVMs, and other hardware",
+      "Was responsible for maintaining two physical racks at a datacenter in Maryland and " + 
+        "recommanding new hardware and processes that included password cracking hardware, " +
+        "Raritan KVMs, and other hardware",
       "Wrote a Perl script that analyzes and efficiently presents data from iptables log lines",
       "Wrote a Perl module that generates iptables rules from a Perl data structure (NF-Save)",
       "Wrote a Bash script that starts tmux sessions and runs predefined commands",
@@ -220,13 +222,14 @@ const history = [{
     edate: "July 2020",
     role: [
       "Worked with 3 AWS accounts containing multiple VPCs to their own Cisco " +
-        "CSR/DirectConnect and multiple deployments/environments",
+        "CSR/DirectConnect and multiple deployments/environments in each account",
       "Managed certificates in both KMS and ACM",
-      "Designed and implemented a deployment strategy for RHEL/CentOS systems " +
-        "in AWS (created shell scripts, cloudformation templates, updated " +
+      "Designed and implemented a deployment strategy for RHEL/CentOS Linux " +
+        "systems in AWS (created shell scripts, cloudformation templates, updated " +
         "packer scripts, chef cookbooks)",
-      "Managed two coworkers to upgrade a large Chef environment (version 11 " +
-        "to 14), repo cleanup, and supermarket deployment",
+      "Managed two coworkers to upgrade a large Chef environment (from version 11 " +
+        "to 14) that over 300 endpoints relied on, repo cleanup, and supermarket " +
+        "deployment",
       "Implemented Hashicorp Vault (including OIDC sign in and AWS instance " +
         "authentication for host secrets)",
       "Created a chef resource (LWRP) to create iptables rules from " +
@@ -250,8 +253,8 @@ const history = [{
     role: [
       "Analyzed remediation and false positive submissions for accuracy",
       "Started the process of migrating the desktop application used to upload ",
-        "scans and generate a reports to a node.js webapp that I was writing",
-      "Built a powershell script to flag false positives"
+        "scans and generate a reports to a Node.JS webapp that I was writing",
+      "Built a PowerShell script to flag false positives"
     ]
   }, {
     title: "Senior DevOps Engineer",
