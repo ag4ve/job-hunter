@@ -208,11 +208,14 @@ const history = [{
       "Was responsible for maintaining two physical racks at a datacenter in Maryland and " + 
         "recommanding new hardware and processes that included password cracking hardware, " +
         "Raritan KVMs, and other hardware",
-      "Wrote a Perl script that analyzes and efficiently presents data from iptables log lines",
-      "Wrote a Perl module that generates iptables rules from a Perl data structure (NF-Save)",
-      "Wrote a Bash script that starts tmux sessions and runs predefined commands",
-      "Wrote a Perl script that packs sourced bash 'modules' sourced from a script",
-      "Wrote a bash script to monitor hosts (mon-hosts)"
+      "Wrote a number of scripts that are published on github like: a Perl script that " +
+        "analyzes and presents metrics from iptables log lines, a Perl module that " +
+        "generates iptables rules from a data structure (NF-Save), a Bash script that " +
+        "starts tmux sessions and runs predefined commands (tmux-start), a Perl script " +
+        "that packs sourced bash 'modules' from a script, and a bash script to monitor " +
+        "hosts (mon-hosts)",
+      "Wrote perl scripts to generate graphs for the scoreboard for the Crack Me " +
+        "if You Can DefCon contest",
     ]
   }, {
     title: "Senior Systems Admin",
@@ -237,12 +240,14 @@ const history = [{
         "to show iptables log data across all servers",
       "Was responsible for managing all host based firewalls for all ICAM Linux servers",
       "Investigated and explained or remediated security audit findings",
+      "Helped maintain OpenShift and Kubernetes (RKS) clusters and implemented a " +
+        "Hashicorp Vault sidecar with helm",
       "Made sure that deployments only used internal resources (using Sonotype " +
         "Nexus and proxy pip/gem repos and local configurations)",
       "Created Groovy libraries and workflows to allow push button " +
         "deployments and environment updates in Jenkins",
       "Created/maintained Chef and Jenkins integrations with each other and " +
-        "AWS (boto3), packer, vault, Chef Minimart, etc."
+        "AWS (boto3), packer, vault, Chef Minimart, etc.",
     ]
   }, {
     title: "Junior Vulnerability Management Engineer",
@@ -252,9 +257,9 @@ const history = [{
     edate: "Aug 2021",
     role: [
       "Analyzed remediation and false positive submissions for accuracy",
-      "Started the process of migrating the desktop application used to upload ",
-        "scans and generate a reports to a Node.JS webapp that I was writing",
-      "Built a PowerShell script to flag false positives"
+      "Started the process of migrating the desktop application used to upload " +
+        "scans and generate reports into a Node.JS webapp that I was developing",
+      "Built a PowerShell script to flag false positives",
     ]
   }, {
     title: "Senior DevOps Engineer",
@@ -271,7 +276,7 @@ const history = [{
         "using AWX Jenkins workers, molecule, separate role based repos, and " +
         "utilizing a secrets management system",
       "Wrote a Bash script to look at each cert running on a server and " +
-        "report on how many days until each cert expired"
+        "report on how many days until each cert expired",
     ]
   }
 ];
